@@ -5,7 +5,7 @@ import java.lang.*;
 import java.io.*;
 
 /* Name of the class has to be "Main" only if the class is public. */
-class largest
+class leap
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
@@ -35,8 +35,8 @@ class largest
         }
 
         if(isLeap==true)
-            System.out.println(year + " is a Leap Year.");
+            System.out.println(year + " yes");
         else
-            System.out.println(year + " is not a Leap Year.");
+            System.out.println(year + " no");
     }
 }
